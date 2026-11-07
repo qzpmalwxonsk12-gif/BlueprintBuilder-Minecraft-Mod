@@ -1,0 +1,255 @@
+{
+  "date": "2026-11-07",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 177,
+      "sha256": "f39c6222acb1cb0fcad4180807a51c6fe86b3681f0576f9503bd21ede3e4b836"
+    },
+    {
+      "path": "build.gradle",
+      "size": 2161,
+      "sha256": "dea693c597653a46779ce4579d061b68416241a90a76b7e9231ef3d244cdfea7"
+    },
+    {
+      "path": "gradle.properties",
+      "size": 387,
+      "sha256": "69b2c22273c9c5f9c6cb8067e3a88e216cec6e0965afba25092f39beaaab6415"
+    },
+    {
+      "path": "HANDOVER.md",
+      "size": 29769,
+      "sha256": "b98fe05a647d1079cf065a33c65e71292886d6366632fb7f9e574b4ed0eebc77"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1062,
+      "sha256": "b7e1bda58d427eef322138f4aa3f1303fbd74aa2bd6cac4d66db3fe7e9df4f35"
+    },
+    {
+      "path": "README.md",
+      "size": 17610,
+      "sha256": "e9d6551ee90237960007f1e14cc6921ddfbb5354a96d632f2e0e20973ed0ff35"
+    },
+    {
+      "path": "settings.gradle",
+      "size": 239,
+      "sha256": "004e1621aba758eeb39f41d2a0fd02d566fad46a559ab527f59ec169f07060be"
+    },
+    {
+      "path": "examples/castle.csv",
+      "size": 713,
+      "sha256": "d16268a1b129d6df49eee8870367b168903af27f583f26de93c6736fc1c39ad3"
+    },
+    {
+      "path": "examples/canvas/example.csv",
+      "size": 102,
+      "sha256": "142c9f0d4ca0736e05c5a7cdeb92267f9fd2c6a472a237980624f60c7a7536fe"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "size": 251,
+      "sha256": "2caec011a749b18ab9a7dea68bf7639a179a3b8316b0e35655d0a62a1d7390fd"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/BlueprintBuilderClient.java",
+      "size": 2381,
+      "sha256": "92b4de98a7fb9a13195e21aaf46a4c301528a3741673cace97910b02e4940e94"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/GhostRenderer.java",
+      "size": 3282,
+      "sha256": "d5454e2d6ac3c6ce8bfd304c7281b34e887011c465adfbc0794f6a0bc8d36d9a"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/GhostStorage.java",
+      "size": 1253,
+      "sha256": "edb2e7e2079f6eb0fc62d4af4987ac88daf59b148b549d12546963f5c649d8cd"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/GhostTracker.java",
+      "size": 2201,
+      "sha256": "235074b95050c44c476707b2569c87238f23fc23f139b42709951bf8e18c2ef4"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/GhostVertexConsumerProvider.java",
+      "size": 3264,
+      "sha256": "69046892491ff32ef2affdbda26e81d9fa27b15bb99a479c73e2979df40c863e"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/canvas/CanvasColorProviders.java",
+      "size": 1574,
+      "sha256": "02535e9a6c4db2fdb63f85e9b26885b3b305221c0b00a03292052b2426327035"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/BlueprintBuilderMod.java",
+      "size": 5407,
+      "sha256": "5028fff7728e409910663a90b2702b1272956e42910bff152994070aaba7a662"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/BlueprintParser.java",
+      "size": 4588,
+      "sha256": "acffa91d3be2737156e3e5062462687b3cf44b0f1e714dafdeb585029749d425"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/BotManager.java",
+      "size": 1941,
+      "sha256": "6aeb6b6219157052ef497f13af1fc54d6e1bdbb6bed1d3d90eebef938ca4a3d7"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/BotSession.java",
+      "size": 5008,
+      "sha256": "1eb4e6f00a25e05e44105e7ed989e755330f0aedb55b2aa18b9070ae25e65049"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/BuildQueue.java",
+      "size": 2760,
+      "sha256": "29556e93dd6215cccbe7e2f3f971432da5e454962fa629b09caf446c8e6b6fa5"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/ScaffoldManager.java",
+      "size": 3491,
+      "sha256": "0265df2bee5362090e27092a36a80f2c993faddbca63fbba0879205256bcb6c1"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintBlockStates.java",
+      "size": 3107,
+      "sha256": "2cb326cd190e5f126bb1185fe07e1cdc198a49a6ac131d0dfb7e50f7d33251f5"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintCSVReader.java",
+      "size": 1953,
+      "sha256": "06f847137e8eb7ff42e6b326f95ef926d697903682b900651a83c8788c6a09ab"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintCSVWriter.java",
+      "size": 1227,
+      "sha256": "1b8ab59bb1ccf5cc5390cde51f204948843e353d0924359ed7f5472217c02f2c"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintExporter.java",
+      "size": 2923,
+      "sha256": "de0e43c08256ac1db44205399ff3501858d7dff18de2e498392a2d6a33bb2099"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintImporter.java",
+      "size": 6069,
+      "sha256": "77b9e571bcdc0ff2fb6ca37c7f4c49e20f52af16a173728152cc0dba7c3f56e5"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintManager.java",
+      "size": 3196,
+      "sha256": "981cd15b0ba2b06080a96d508973765b8b14f068faa57079064d76dfa97b25ed"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintMetadata.java",
+      "size": 2361,
+      "sha256": "15d2f4e5715fcc7ae8c46b3517031c46003164db385720b266fb1e75538b0f87"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/BlueprintSelectionManager.java",
+      "size": 1255,
+      "sha256": "2a617537e05b1c8bf8e9d6d0c0119c9636cb56c035f5f572ec404a9737469226"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/structure/StructureNbtExporter.java",
+      "size": 13857,
+      "sha256": "52db80fc9bf7c10deb86c2148bdc3e56241ed3c7b914d374a9228aeae1f72370"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/version/StructureVersion.java",
+      "size": 2964,
+      "sha256": "88dda09bcdb6d903fbfbdbc4c1a656e76245b82d5b14ef81fac7235156ed2a21"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/blueprint/version/VersionBlockConverter.java",
+      "size": 19667,
+      "sha256": "f4fdaa90330151291be5dfa34a236af034c5c93919f5648aa4a3a53bc77f0a18"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasBlock.java",
+      "size": 1478,
+      "sha256": "1b860fb4dcab0f45a1e64e57fc23e8a22e0cee67268bbe7139d91fce9615510c"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasBlockEntity.java",
+      "size": 3775,
+      "sha256": "5914ef54fad81d3433d234a117e3263b8e049248a69d722c2fa568c769de1717"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasBuilder.java",
+      "size": 3836,
+      "sha256": "d4f1a72215cbd89bb1120452ed77a4c9e7b5441a8184b548e014ba36f7437b15"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasBuildQueue.java",
+      "size": 2169,
+      "sha256": "0d8294b9f1403d4e2b8c96dfb5ad115cedcf313d93f565e51a66487818b1b10a"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasRegistry.java",
+      "size": 2935,
+      "sha256": "fa4a7bdf97f1a528c8c8f3b031ae4a610d0e54f75956ca914e066577a7e7bc51"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/CsvColorReader.java",
+      "size": 5035,
+      "sha256": "f76e9a1a9daaea784fa0ef66d1788833d8248362166424aad6818231ca02f044"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/command/BlueprintCommands.java",
+      "size": 20061,
+      "sha256": "d689ec793ee1e55dfb1f4c336043281a275a563f76375a63836f09e1508d3e1f"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/command/BuildCanvasCommand.java",
+      "size": 6348,
+      "sha256": "925b7e0e6e89e5a8e84e3f029afccd95cd87695c81ea384e90bd0937e23ab57f"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/command/BuildCommand.java",
+      "size": 13892,
+      "sha256": "d23d3e55962906bcf9e1251a75268b77e599cd1a1f4d931d72b3781a94027a66"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/command/CanvasCacheCommand.java",
+      "size": 6885,
+      "sha256": "d88374bf2ec6b4b85de2048059bf36f1798807c039bffe81598c7ced88e67517"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/network/GhostBlueprintPayload.java",
+      "size": 2444,
+      "sha256": "3fe497a607e60ac9387f7cb480d05eaa3a638c4f34320200e25969b999100025"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/network/GhostConsumedPayload.java",
+      "size": 1168,
+      "sha256": "daf3aceafea684a5feadd6486a0df7ea0825930a80c5308d47612ac034b8d0e2"
+    },
+    {
+      "path": "src/main/resources/fabric.mod.json",
+      "size": 987,
+      "sha256": "440d296650eedd132bddc6b6f0e8b7d345e43a59d3ddbc451e04b19c825cb161"
+    },
+    {
+      "path": "src/main/resources/assets/blueprintbuilder/blockstates/canvas_block.json",
+      "size": 83,
+      "sha256": "bd1df387c1ae1ade73cc127e06e6e89571d4aa9468ba7efb997ea2ae5a1818d9"
+    },
+    {
+      "path": "src/main/resources/assets/blueprintbuilder/lang/en_us.json",
+      "size": 60,
+      "sha256": "634a59d70878cdcbb02115cba64843789e7c998e0abcfaba1e5a87016fa5a184"
+    },
+    {
+      "path": "src/main/resources/assets/blueprintbuilder/textures/block/canvas_block.png",
+      "size": 135,
+      "sha256": "987c7d198cb8f101ec3669d1c6a405f81be148a794b3460ac9699f739fa0f282"
+    },
+    {
+      "path": "src/main/resources/data/blueprintbuilder/loot_table/blocks/canvas_block.json",
+      "size": 296,
+      "sha256": "33f347f48edce4b07e005acb6e981309fc9953bea61f234c6d93d1c55a8f9a24"
+    }
+  ]
+}

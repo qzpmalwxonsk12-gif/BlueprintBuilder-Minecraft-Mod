@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "blueprintbuilder",
+  "version": "${version}",
+  "name": "Blueprint Builder",
+  "description": "Reads .csv blueprints from a 'blueprints' folder and builds them in-world with /build1 (downward wall) or /build2 (sideways floor). Supports a translucent 'scaffold' build guide and a 'bot' mode that puppets the player. Also adds a per-block-coloured Canvas Block and /buildCanvas for importing RGB-CSV pixel art, plus the Canvas Cache long-distance renderer (/canvasCache) with on-disk LOD pyramids so huge images stay visible far beyond chunk range.",
+  "authors": [
+    "Arjun"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.blueprintbuilder.BlueprintBuilderMod"
+    ],
+    "client": [
+      "com.example.blueprintbuilder.client.BlueprintBuilderClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

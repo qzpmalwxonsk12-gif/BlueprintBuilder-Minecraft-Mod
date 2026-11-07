@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "blueprintbuilder:block/canvas_block" }
+  }
+}

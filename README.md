@@ -2,6 +2,22 @@
 
 # Blueprint Builder
 
+## Repository guide and source build
+
+Blueprint Builder turns block-name CSV blueprints into Minecraft structures and also supports RGB-CSV canvas artwork, long-distance canvas-cache rendering and blueprint/structure export. The command reference below explains the distinct structure-building and canvas workflows.
+
+The checked-in configuration declares **Minecraft 1.21.1**, Fabric Loader **0.16.5**, Fabric API **0.102.1+1.21.1**, and mod version **4.1.0**. Use Java 21 and a Gradle version compatible with the included Loom/build configuration. The snapshot includes Gradle configuration but **does not include root `gradlew`/`gradlew.bat` launcher scripts**. With a compatible Gradle installation, build from the repository root using:
+
+```powershell
+gradle build
+```
+
+If you generate wrapper launcher scripts for your checkout, the later wrapper examples apply to that local setup. Do not assume a copied command names a file already present in this snapshot. Build JARs are generated under `build/libs/`; local example/input CSVs belong in the folders described by the relevant command system.
+
+See [HANDOVER.md](HANDOVER.md) for continuation context and [`examples/`](examples) for included examples. Start with a small blueprint/canvas before importing very large artwork: scene size, block counts, cache generation and rendering load are different concerns.
+
+This project's [LICENSE](LICENSE) is MIT, copyright 2026 Arjun. Preserve its required notice when redistributing covered code. Minecraft/Fabric and third-party content retain their own applicable terms; the MIT declaration does not relicense unrelated game assets.
+
 A Fabric mod for **Minecraft 1.21.1** that builds structures in the world from `.csv` blueprint
 files. Each cell of the CSV names a block; the mod places those blocks block-for-block, throttled to a
 configurable number of blocks per tick.
@@ -287,7 +303,7 @@ This project has no committed Gradle wrapper jar, so use one of these:
 2. (Optional, one time) generate the wrapper: `gradle wrapper`
 3. Build: `gradle build`   (or `./gradlew build` once the wrapper exists)
 
-The output jar is `build/libs/blueprintbuilder-3.4.1.jar` (ignore the `-sources` jar).
+The output jar is `build/libs/blueprintbuilder-4.1.0.jar` (ignore the `-sources` jar).
 
 ---
 
@@ -295,7 +311,7 @@ The output jar is `build/libs/blueprintbuilder-3.4.1.jar` (ignore the `-sources`
 
 1. Install **Fabric Loader** for Minecraft 1.21.1 (<https://fabricmc.net/use/installer/>).
 2. Put these in your `.minecraft/mods` folder:
-   - `blueprintbuilder-3.4.1.jar` (this mod)
+   - `blueprintbuilder-4.1.0.jar` (this mod)
    - **Fabric API** for 1.21.1 (<https://modrinth.com/mod/fabric-api>)
 3. Launch the **fabric-loader 1.21.1** profile. The `blueprints` folder appears in `.minecraft` on first
    launch.
@@ -307,3 +323,8 @@ The output jar is `build/libs/blueprintbuilder-3.4.1.jar` (ignore the `-sources`
 The dependency versions in `gradle.properties` (`yarn_mappings`, `loader_version`, `fabric_version`)
 are pinned to known-good 1.21.1 values. If Gradle reports a version isn't found, grab the current
 1.21.1 numbers from <https://fabricmc.net/develop/> and update that file.
+
+
+## Source snapshot and validation
+
+See [BACKUP_NOTES.md](BACKUP_NOTES.md) for the omitted build outputs, local settings, credentials and runtime data. Build generated binaries locally using the instructions above; a source checkout is not an installed application. Earlier validation figures in this guide describe their original development runs. This documentation update checks source references and instructions; it does not claim a fresh application, device or gameplay test.

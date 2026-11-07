@@ -15,6 +15,10 @@ This is a current working-file snapshot, not a copy of the original Git history.
 - `.vscode/`: generated, runtime, dependency, or local data directory
 - `bin/`: generated, runtime, dependency, or local data directory
 - `build/`: generated, runtime, dependency, or local data directory
-- `src\client\java\com\example\blueprintbuilder\client\canvas\cache/`: generated, runtime, dependency, or local data directory
-- `src\main\java\com\example\blueprintbuilder\canvas\cache/`: generated, runtime, dependency, or local data directory
-- `src\main\resources\assets\blueprintbuilder\models/`: generated, runtime, dependency, or local data directory
+
+
+
+
+## Final source/security review (2026-11-07)
+
+Restored 12 required authored source/assets that an overly broad backup filter had omitted. Source directories named `Models`, `models`, `cache` or `raw` are not treated as runtime data merely because of their names.

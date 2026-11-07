@@ -3,18 +3,13 @@
   "files": [
     {
       "path": ".gitignore",
-      "size": 177,
-      "sha256": "f39c6222acb1cb0fcad4180807a51c6fe86b3681f0576f9503bd21ede3e4b836"
+      "size": 543,
+      "sha256": "9a5e5c582fbf99a3df51d678d73d33b8b58f6ed8bf139695e80fa5c07e2674db"
     },
     {
-      "path": "build.gradle",
-      "size": 2161,
-      "sha256": "dea693c597653a46779ce4579d061b68416241a90a76b7e9231ef3d244cdfea7"
-    },
-    {
-      "path": "gradle.properties",
-      "size": 387,
-      "sha256": "69b2c22273c9c5f9c6cb8067e3a88e216cec6e0965afba25092f39beaaab6415"
+      "path": "BACKUP_NOTES.md",
+      "size": 1370,
+      "sha256": "77bae3593339e383f61913438fd824ef8a722397e71dc8f23a1c2a7b4df8e2aa"
     },
     {
       "path": "HANDOVER.md",
@@ -28,18 +23,13 @@
     },
     {
       "path": "README.md",
-      "size": 18085,
-      "sha256": "6a0d854c500a8887aebe5b3a9e5e33fa2b12b38b81ffcdbfb78c8423b54c3de4"
+      "size": 20262,
+      "sha256": "8e5160d2e72422394481a6fd3b22040f15cd8864f669dc0ae1adc857665e9243"
     },
     {
-      "path": "settings.gradle",
-      "size": 239,
-      "sha256": "004e1621aba758eeb39f41d2a0fd02d566fad46a559ab527f59ec169f07060be"
-    },
-    {
-      "path": "examples/castle.csv",
-      "size": 713,
-      "sha256": "d16268a1b129d6df49eee8870367b168903af27f583f26de93c6736fc1c39ad3"
+      "path": "build.gradle",
+      "size": 2161,
+      "sha256": "dea693c597653a46779ce4579d061b68416241a90a76b7e9231ef3d244cdfea7"
     },
     {
       "path": "examples/canvas/example.csv",
@@ -47,9 +37,39 @@
       "sha256": "142c9f0d4ca0736e05c5a7cdeb92267f9fd2c6a472a237980624f60c7a7536fe"
     },
     {
+      "path": "examples/castle.csv",
+      "size": 713,
+      "sha256": "d16268a1b129d6df49eee8870367b168903af27f583f26de93c6736fc1c39ad3"
+    },
+    {
+      "path": "gradle.properties",
+      "size": 387,
+      "sha256": "69b2c22273c9c5f9c6cb8067e3a88e216cec6e0965afba25092f39beaaab6415"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "size": 43583,
+      "sha256": "2db75c40782f5e8ba1fc278a5574bab070adccb2d21ca5a6e5ed840888448046"
+    },
+    {
       "path": "gradle/wrapper/gradle-wrapper.properties",
-      "size": 251,
-      "sha256": "2caec011a749b18ab9a7dea68bf7639a179a3b8316b0e35655d0a62a1d7390fd"
+      "size": 348,
+      "sha256": "4c2fd51a1e59131810987858acfa3a565fe7c0afc84059a39fb56b1d2c9cba26"
+    },
+    {
+      "path": "gradlew",
+      "size": 8784,
+      "sha256": "9cbbb4d68ff7fb5211c4d58f598ac9d8664c05fdcd1e5f59b7f2c3ac1ee00af0"
+    },
+    {
+      "path": "gradlew.bat",
+      "size": 2894,
+      "sha256": "0f3ed8f03b50934cb8c48b15a470d5c20a30a5385825e48b55bcc8ea3d8f8e18"
+    },
+    {
+      "path": "settings.gradle",
+      "size": 239,
+      "sha256": "004e1621aba758eeb39f41d2a0fd02d566fad46a559ab527f59ec169f07060be"
     },
     {
       "path": "src/client/java/com/example/blueprintbuilder/client/BlueprintBuilderClient.java",
@@ -80,6 +100,16 @@
       "path": "src/client/java/com/example/blueprintbuilder/client/canvas/CanvasColorProviders.java",
       "size": 1574,
       "sha256": "02535e9a6c4db2fdb63f85e9b26885b3b305221c0b00a03292052b2426327035"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/canvas/cache/CanvasRenderer.java",
+      "size": 8972,
+      "sha256": "fb61d1c2e7b72e4df4f3ab70a1f3f6e7826962d42d500a052740ffd5b50e1e01"
+    },
+    {
+      "path": "src/client/java/com/example/blueprintbuilder/client/canvas/cache/CanvasTextureCache.java",
+      "size": 3856,
+      "sha256": "7a0d17dcf8ea2f71159fd8ef6ce76fe26ac5f8dc959b13535a959678054fd1e4"
     },
     {
       "path": "src/main/java/com/example/blueprintbuilder/BlueprintBuilderMod.java",
@@ -177,14 +207,14 @@
       "sha256": "5914ef54fad81d3433d234a117e3263b8e049248a69d722c2fa568c769de1717"
     },
     {
-      "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasBuilder.java",
-      "size": 3836,
-      "sha256": "d4f1a72215cbd89bb1120452ed77a4c9e7b5441a8184b548e014ba36f7437b15"
-    },
-    {
       "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasBuildQueue.java",
       "size": 2169,
       "sha256": "0d8294b9f1403d4e2b8c96dfb5ad115cedcf313d93f565e51a66487818b1b10a"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasBuilder.java",
+      "size": 3836,
+      "sha256": "d4f1a72215cbd89bb1120452ed77a4c9e7b5441a8184b548e014ba36f7437b15"
     },
     {
       "path": "src/main/java/com/example/blueprintbuilder/canvas/CanvasRegistry.java",
@@ -195,6 +225,46 @@
       "path": "src/main/java/com/example/blueprintbuilder/canvas/CsvColorReader.java",
       "size": 5035,
       "sha256": "f76e9a1a9daaea784fa0ef66d1788833d8248362166424aad6818231ca02f044"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasCache.java",
+      "size": 6465,
+      "sha256": "5c99f15fb5027255aaf1d8b720b964bc4d93774daeb5f334c2db42a436d288ac"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasCacheManager.java",
+      "size": 12528,
+      "sha256": "3b50cc76b8c668a699761ff2c21544b6b8e09797aad8bf1e93bbfa23a3fffd2d"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasLod.java",
+      "size": 574,
+      "sha256": "b2648c18dcc75e136f32e3d0237c50dde9e429cdfb011c0ad7f990122cf7c1d1"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasLodGenerator.java",
+      "size": 5809,
+      "sha256": "32c8f906d4e197f3669a6ddd95a4cb0657a621e25a4d87c9c7af8273911c09d0"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasPlane.java",
+      "size": 629,
+      "sha256": "d5fb075779551e1f602a5307c8609a88d03e1ea88269f0f32c0def2d1cf6e8da"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasProject.java",
+      "size": 2449,
+      "sha256": "a2729ed8409c2863664f63fa8c93ec129c2ff74c66c89819100f44d7d785338b"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasProjectScanner.java",
+      "size": 3892,
+      "sha256": "7edf6a6bffaac834f5e97e7c0cf60a529973042dcfc181d8a54cb60e1a9bef86"
+    },
+    {
+      "path": "src/main/java/com/example/blueprintbuilder/canvas/cache/CanvasRenderSettings.java",
+      "size": 1221,
+      "sha256": "d08a7d12fa474908e18a6c771a385b90d5a5b969d79fc4e5b877d14af5d8a79a"
     },
     {
       "path": "src/main/java/com/example/blueprintbuilder/command/BlueprintCommands.java",
@@ -227,11 +297,6 @@
       "sha256": "daf3aceafea684a5feadd6486a0df7ea0825930a80c5308d47612ac034b8d0e2"
     },
     {
-      "path": "src/main/resources/fabric.mod.json",
-      "size": 987,
-      "sha256": "440d296650eedd132bddc6b6f0e8b7d345e43a59d3ddbc451e04b19c825cb161"
-    },
-    {
       "path": "src/main/resources/assets/blueprintbuilder/blockstates/canvas_block.json",
       "size": 83,
       "sha256": "bd1df387c1ae1ade73cc127e06e6e89571d4aa9468ba7efb997ea2ae5a1818d9"
@@ -242,6 +307,16 @@
       "sha256": "634a59d70878cdcbb02115cba64843789e7c998e0abcfaba1e5a87016fa5a184"
     },
     {
+      "path": "src/main/resources/assets/blueprintbuilder/models/block/canvas_block.json",
+      "size": 912,
+      "sha256": "02e6f23b445def9cdaef75d850647e4a6fab27f8913332c82ce6b079b432b5c7"
+    },
+    {
+      "path": "src/main/resources/assets/blueprintbuilder/models/item/canvas_block.json",
+      "size": 54,
+      "sha256": "d1eb17908dabb9c34bd8ae0b0e9a24bd8fa7465c8b250eec30fb532e200cc7e3"
+    },
+    {
       "path": "src/main/resources/assets/blueprintbuilder/textures/block/canvas_block.png",
       "size": 135,
       "sha256": "987c7d198cb8f101ec3669d1c6a405f81be148a794b3460ac9699f739fa0f282"
@@ -250,6 +325,13 @@
       "path": "src/main/resources/data/blueprintbuilder/loot_table/blocks/canvas_block.json",
       "size": 296,
       "sha256": "33f347f48edce4b07e005acb6e981309fc9953bea61f234c6d93d1c55a8f9a24"
+    },
+    {
+      "path": "src/main/resources/fabric.mod.json",
+      "size": 987,
+      "sha256": "440d296650eedd132bddc6b6f0e8b7d345e43a59d3ddbc451e04b19c825cb161"
     }
-  ]
+  ],
+  "last_reviewed": "2026-11-07",
+  "manifest_scope": "Current reviewed source snapshot, excluding this manifest itself and untracked generated outputs."
 }

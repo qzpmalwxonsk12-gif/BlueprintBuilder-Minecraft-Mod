@@ -1,3 +1,5 @@
+> Unofficial Minecraft modding project; not affiliated with or endorsed by Mojang or Microsoft. Third-party names and assets remain subject to their owners' rights.
+
 # Blueprint Builder
 
 A Fabric mod for **Minecraft 1.21.1** that builds structures in the world from `.csv` blueprint

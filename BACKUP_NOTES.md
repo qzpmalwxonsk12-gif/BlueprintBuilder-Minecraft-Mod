@@ -1,4 +1,8 @@
-# Source backup
+# BlueprintBuilder-Minecraft-Mod
+
+Blueprint Builder: Minecraft Fabric mod for building structures from CSV blueprints.
+
+Unofficial Minecraft modding project; not affiliated with or endorsed by Mojang or Microsoft. Third-party names and assets remain subject to their owners' rights.
 
 Private source snapshot prepared on 2026-11-07. Original local files were not changed.
 
